@@ -77,3 +77,62 @@ const styles = StyleSheet.create({
     fontWeight: "bold"
   }
 });
+
+
+<!--  Recom-->
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff"
+  },
+  title: {
+    color: "#fff",
+    alignSelf: "flex-start",
+    paddingLeft: RFValue(15),
+    fontSize: RFValue(25),
+    marginTop: RFValue(65)
+  },
+  subtitle: {
+    fontWeight: "bold",
+    alignSelf: "flex-start",
+    paddingLeft: RFValue(15),
+    fontSize: RFValue(15)
+  },
+  cardContainer: {
+    flex: 1,
+    borderRadius: RFValue(10),
+    justifyContent: "center",
+    height: RFValue(110),
+    marginBottom: RFValue(20)
+  }
+});
+
+<!-- Pop -->
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff"
+  },
+  title: {
+    color: "#fff",
+    alignSelf: "flex-start",
+    paddingLeft: RFValue(15),
+    fontSize: RFValue(25),
+    marginTop: RFValue(65)
+  },
+  subtitle: {
+    fontWeight: "bold",
+    alignSelf: "flex-start",
+    paddingLeft: RFValue(15),
+    fontSize: RFValue(15)
+  },
+  cardContainer: {
+    flex: 1,
+    borderRadius: RFValue(10),
+    justifyContent: "center",
+    height: RFValue(110),
+    marginBottom: RFValue(20)
+  }
+});
+
